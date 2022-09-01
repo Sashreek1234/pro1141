@@ -1,0 +1,9 @@
+canvas{
+    animation-name: sash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+    @keyframes sash{
+        from{box-shadow: 5px 5px 100px aqua;}
+        to{box-shadow: 20px 20px 100px mediumvioletred;}
+    }
